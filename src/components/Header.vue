@@ -1,9 +1,25 @@
 <template>
     <el-row>
-        <el-col :span="6"><div class="grid-content bg-purple">Home</div></el-col>
-        <el-col :span="6"><div class="grid-content bg-purple-light">About</div></el-col>
-        <el-col :span="6"><div class="grid-content bg-purple">Works</div></el-col>
-        <el-col :span="6"><div class="grid-content bg-purple-light">Skil</div></el-col>
+        <el-col :span="6">
+            <div class="grid-content bg-purple">
+                <router-link to="/">Home</router-link>
+            </div>
+        </el-col>
+        <el-col :span="6">
+            <div class="grid-content bg-purple-light">
+                <router-link to="/about">About</router-link>
+            </div>
+        </el-col>
+        <el-col :span="6">
+            <div class="grid-content bg-purple">
+                <router-link to="/works">Works</router-link>
+            </div>
+        </el-col>
+        <el-col :span="6">
+            <div class="grid-content bg-purple-light">
+                <router-link to="/skil">Skil</router-link>
+            </div>
+        </el-col>
     </el-row>
 </template>
 

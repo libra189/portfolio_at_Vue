@@ -32,6 +32,8 @@ export default {
   height: 5vh;
 }
 #contents {
+  padding-top: 5px;
+  padding-bottom: 5px;
   height: 90vh;
 }
 #footer {

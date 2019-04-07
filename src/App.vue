@@ -1,7 +1,9 @@
 <template>
   <div id="app">
     <Header id="header"/>
-    <router-view/>
+    <div id="contents">
+      <router-view/>
+    </div>
     <Footer id="footer"></Footer>
   </div>
 </template>
@@ -26,16 +28,13 @@ export default {
   text-align: center;
   color: #2c3e50;
 }
-#nav {
-  padding: 30px;
+#header {
+  height: 5vh;
 }
-
-#nav a {
-  font-weight: bold;
-  color: #2c3e50;
+#contents {
+  height: 90vh;
 }
-
-#nav a.router-link-exact-active {
-  color: #42b983;
+#footer {
+  height: 5vh;
 }
 </style>

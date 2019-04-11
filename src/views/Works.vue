@@ -14,7 +14,7 @@
                 メンタルヘルス診断サイト
               </div>
               <div class="panel-body">
-                <table class="detail">
+                <table class="table">
                   <tr>
                     <th>カテゴリ</th>
                     <th>詳細</th>
@@ -57,7 +57,7 @@
                 部屋貸しポータルサイト
               </div>
               <div class="panel-body">
-                <table class="detail">
+                <table class="table">
                   <tr>
                     <th>カテゴリ</th>
                     <th>詳細</th>
@@ -105,14 +105,14 @@
 </template>
 
 <style scoped>
-.detail {
+.table {
   width: 100%;
 }
-.detail th {
+.table th {
   width: 20%;
   vertical-align: top;
 }
-.detail td {
+.table td {
   width: 80%;
   text-align: left;
 }

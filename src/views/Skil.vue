@@ -15,7 +15,7 @@
                 <td>PHP(5:0.5, 7:1)</td>
                 <td>HTML5(3)</td>
                 <td>CSS3(3)</td>
-                <td>JavaScript(ES5:3, ES2015:1)</td>
+                <td>JavaScript<br>(ES5:3, ES2015:1)</td>
             </tr>
             <tr>
                 <td>Golang(0.3)</td>
@@ -35,6 +35,9 @@
             <tr>
               <td>Cloud9(0.5)</td>
               <td>CodeCommit(0.5)</td>
+              <td></td>
+              <td></td>
+              <td></td>
             </tr>
             <tr>
                 <th rowspan="2">FW,ライブラリ</th>
@@ -47,6 +50,9 @@
             <tr>
               <td>jQuery(3)</td>
               <td>Bootstrap4(0.5)</td>
+              <td></td>
+              <td></td>
+              <td></td>
             </tr>
             <tr>
                 <th rowspan="2">開発環境</th>
@@ -59,10 +65,14 @@
             <tr>
                 <td>MySQL5(3)</td>
                 <td>MariaDB(1)</td>
+                <td></td>
+                <td></td>
+                <td></td>
             </tr>
             <tr>
                 <th>その他</th>
                 <td>Github(3)</td>
+                <td></td>
                 <td></td>
                 <td></td>
                 <td></td>
@@ -74,16 +84,16 @@
   </div>
 </template>
 
-<style>
+<style scoped>
 .annotation {
-    text-align: left;
+  text-align: left;
 }
 .table {
   width: 100%;
 }
 .table tr {
   border-collapse:collapse;
-  border-bottom:1px #eee solid;
+  border-bottom:2px #eee solid;
 }
 .table th {
   width: 20%;

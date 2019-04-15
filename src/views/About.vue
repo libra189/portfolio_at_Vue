@@ -22,7 +22,7 @@
       <div class="container">
         <div class="row">
           <div class="col-md-5">
-            <img src="img/img1.jpg" class="img-responsive img-rounded" alt="" />
+            <img :src="image_src" class="img-responsive img-rounded" alt="" />
           </div>
           <div class="col-md-7">
             <p><strong>経歴</strong></p>
@@ -78,3 +78,13 @@ ul {
   margin-top: 2rem;
 }
 </style>
+
+<script>
+export default {
+    data () {
+        return {
+            image_src: require("../assets/img.jpg")
+        }
+    }
+}
+</script>

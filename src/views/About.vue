@@ -52,6 +52,11 @@
                 <td>インフォニック株式会社 入社</td>
               </tr>
             </table>
+            <hr>
+            <div class="text-left">
+              WebエンジニアとしてPHP,Ruby,Salesforceを用いたサービス開発に携わる。
+              業務では直接お客様との仕様を決めから実装、テスト、チームメイトのコードレビューをしている。
+            </div>
           </div>
         </div>
       </div>

@@ -22,7 +22,7 @@
       <div class="container">
         <div class="row">
           <div class="col-md-5">
-            <img src="img/img1.jpg" class="img-responsive img-rounded" alt="" />
+            <img :src="image_src" class="img-responsive img-rounded" alt="" />
           </div>
           <div class="col-md-7">
             <p><strong>経歴</strong></p>
@@ -52,6 +52,11 @@
                 <td>インフォニック株式会社 入社</td>
               </tr>
             </table>
+            <hr>
+            <div class="text-left">
+              WebエンジニアとしてPHP,Ruby,Salesforceを用いたサービス開発に携わる。
+              業務では直接お客様との仕様を決めから実装、テスト、チームメイトのコードレビューをしている。
+            </div>
           </div>
         </div>
       </div>
@@ -78,3 +83,13 @@ ul {
   margin-top: 2rem;
 }
 </style>
+
+<script>
+export default {
+    data () {
+        return {
+            image_src: require("../assets/img.jpg")
+        }
+    }
+}
+</script>

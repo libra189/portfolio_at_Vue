@@ -3,7 +3,7 @@
     <!-- Section: intro -->
     <section id="intro" class="intro">
       <div class="slogan">
-        <img src="/img/logo.png" alt="logo">
+        <img :src="image_src" alt="logo">
       </div>
     </section>
     <!-- /Section: intro -->
@@ -18,3 +18,13 @@
   height: 100%;
 }
 </style>
+
+<script>
+export default {
+    data () {
+        return {
+            image_src: require("../assets/logo.png")
+        }
+    }
+}
+</script>

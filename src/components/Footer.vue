@@ -7,28 +7,28 @@
 </template>
 
 <script>
-import WantedlyImage from "@/assets/wantedly_mark.svg";
-import TwitterImage from "@/assets/Twitter_Social_Icon_Circle_Color.svg";
-import GithubImage from "@/assets/GitHub-Mark-32px.png";
+import WantedlyImage from '@/assets/wantedly_mark.svg'
+import TwitterImage from '@/assets/Twitter_Social_Icon_Circle_Color.svg'
+import GithubImage from '@/assets/GitHub-Mark-32px.png'
 
 export default {
-  data() {
-    return {
-      wantedly: {
-        link: "https://www.wantedly.com/secret_profiles/dsVa206thfO0voMMHcSelneCaEnB4C7s",
-        img: WantedlyImage,
-      },
-      github: {
-        link: "https://github.com/libra189", 
-        img: GithubImage,
-      },
-      twitter: {
-        link: "https://twitter.com/libra1895",
-        img: TwitterImage,
-      },
-    };
-  }
-};
+    data () {
+        return {
+            wantedly: {
+                link: 'https://www.wantedly.com/secret_profiles/dsVa206thfO0voMMHcSelneCaEnB4C7s',
+                img: WantedlyImage
+            },
+            github: {
+                link: 'https://github.com/libra189',
+                img: GithubImage
+            },
+            twitter: {
+                link: 'https://twitter.com/libra1895',
+                img: TwitterImage
+            }
+        }
+    }
+}
 </script>
 
 <style scoped>

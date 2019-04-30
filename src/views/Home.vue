@@ -23,7 +23,7 @@
 export default {
     data () {
         return {
-            image_src: require("../assets/logo.png")
+            image_src: require('../assets/logo.png')
         }
     }
 }

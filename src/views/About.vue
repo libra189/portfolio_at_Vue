@@ -88,7 +88,7 @@ ul {
 export default {
     data () {
         return {
-            image_src: require("../assets/img.jpg")
+            image_src: require('../assets/img.jpg')
         }
     }
 }

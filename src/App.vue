@@ -28,15 +28,8 @@ export default {
   text-align: center;
   color: #2c3e50;
 }
-#header {
-  height: 5vh;
-}
 #contents {
-  padding-top: 5px;
-  padding-bottom: 5px;
-  height: 90vh;
-}
-#footer {
-  height: 5vh;
+  /* 画面サイズ - header - footer */
+  height: calc(100% - 63px - 32px);
 }
 </style>
